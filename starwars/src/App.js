@@ -25,6 +25,7 @@ const App = () => {
     getData()
   }, []);
 
+  if(!characterData) return <h3>Patience...</h3>;
   return (
     <div className="App">
       <h1 className="Header">Characters</h1>
