@@ -26,6 +26,7 @@ export default function Character (props) {
             { 
                 props.characterData.map((item) => (
                     <p key={item.name}>{`NAME: ${item.name} HEIGHT: ${item.height} HAIR COLOR: ${item.hair_color} EYE COLOR: ${item.eye_color}`}</p>
+                    
                 ))
             }
         </Container>
